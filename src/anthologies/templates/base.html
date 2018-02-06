@@ -1,0 +1,45 @@
+{% load staticfiles %}
+<!doctype html>
+<html lang="en" class="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>{% block title %}Anthologies{% endblock title %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    {% block meta_title %}
+    <meta property="og:title" content="Anthologies">
+    <meta name="twitter:title" content="Anthologies">
+    {% endblock %}
+
+    {% block meta_description %}
+    <meta name="description" content="Anthologies lets you bundle links to share stories.">
+    <meta property="og:description" content="Anthologies lets you bundle links to share stories.">
+    <meta name="twitter:description" content="Anthologies lets you bundle links to share stories.">
+    {% endblock %}
+
+    {% block meta_url %}
+    {% endblock %}
+
+    {% block meta_image %}
+    <meta property="og:image" content="">
+    <meta name="twitter:image:src" content="">
+    {% endblock %}
+
+    {% block meta_defaults %}
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@anthologiesco">
+    {% endblock %}
+
+    <link href="{%  static 'favicon.ico' %}" rel="shortcut icon">
+    {% block css %}
+    <link href="{% static 'dist/css/site.css' %}" rel="stylesheet">
+    {% endblock %}
+  </head>
+
+  <body>
+    <div>
+      {% block content %}{% endblock content %}
+    </div>
+  </body>
+</html>
