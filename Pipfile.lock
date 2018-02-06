@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "8b5635a4f7b069ae6661115b9eaa15466f7cd96794af5d131735a3638be101fb"
+            "sha256": "e4928246843851541560adff7402659cf23de841a5d12a167175d717c57d7709"
         },
         "host-environment-markers": {
             "implementation_name": "cpython",
@@ -34,6 +34,27 @@
             ],
             "version": "==2.0.2"
         },
+        "django-debug-toolbar": {
+            "hashes": [
+                "sha256:4af2a4e1e932dadbda197b18585962d4fc20172b4e5a479490bc659fe998864d",
+                "sha256:d9ea75659f76d8f1e3eb8f390b47fc5bad0908d949c34a8a3c4c87978eb40a0f"
+            ],
+            "version": "==1.9.1"
+        },
+        "django-environ": {
+            "hashes": [
+                "sha256:e9c171b9d5f540e6f3bc42866941d9cd0bd77fb110a7c13a7c4857a2c08cfa40",
+                "sha256:ee2f8405d83137e3328b26b3de01bd715b5395fca22feb919dcc905fb6099cfa"
+            ],
+            "version": "==0.4.4"
+        },
+        "django-extensions": {
+            "hashes": [
+                "sha256:f642e79990f365e82a7c906c91b0dabea533cdcdf2df7059a732e1e8648f2fa3",
+                "sha256:6fb35133b61e7295d43c1f7added952e5dfe689ae65662d2fb5fe7ea1a397eba"
+            ],
+            "version": "==1.9.9"
+        },
         "pytz": {
             "hashes": [
                 "sha256:80af0f3008046b9975242012a985f04c5df1f01eed4ec1633d56cc47a75a6a48",
@@ -47,6 +68,28 @@
                 "sha256:fae4cffc040921b8a2d60c6cf0b5d662c1190fe54d718271db4eb17d44a185b7"
             ],
             "version": "==2017.3"
+        },
+        "six": {
+            "hashes": [
+                "sha256:832dc0e10feb1aa2c68dcc57dbb658f1c7e65b9b61af69048abc87a2db00a0eb",
+                "sha256:70e8a77beed4562e7f14fe23a786b54f6296e34344c23bc42f07b15018ff98e9"
+            ],
+            "version": "==1.11.0"
+        },
+        "sqlparse": {
+            "hashes": [
+                "sha256:d9cf190f51cbb26da0412247dfe4fb5f4098edb73db84e02f9fc21fdca31fed4",
+                "sha256:ce028444cfab83be538752a2ffdb56bc417b7784ff35bb9a3062413717807dec"
+            ],
+            "version": "==0.2.4"
+        },
+        "typing": {
+            "hashes": [
+                "sha256:b2c689d54e1144bbcfd191b0832980a21c2dbcf7b5ff7a66248a60c90e951eb8",
+                "sha256:3a887b021a77b292e151afb75323dea88a7bc1b3dfa92176cff8e44c8b68bddf",
+                "sha256:d400a9344254803a2368533e4533a4200d21eb7b6b729c173bc38201a74db3f2"
+            ],
+            "version": "==3.6.4"
         }
     },
     "develop": {}
