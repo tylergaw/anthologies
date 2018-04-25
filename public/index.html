@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="theme-color" content="#1a1a1a">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="Package links, share a story.">
+    <meta name="og:description" content="Package links, share a story.">
+    <meta name="twitter:description" content="Package links, share a story.">
+
+    <meta property="og:image" content="https://anthologies.co/social-default.png">
+    <meta name="twitter:image:src" content="https://anthologies.co/social-default.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:title" content="Anthologies">
+    <meta name="twitter:title" content="Anthologies">
+
+    <meta property="og:url" content="https://anthologies.co">
+    <meta name="twitter:url" content="https://anthologies.co">
+
+    <meta name="twitter:site" content="@anthologies">
+    <meta property="og:type" content="article">
+
+    <title>
+      Anthologies
+    </title>
+
+    <style>
+      html {
+        height: 90%;
+      }
+
+      body {
+        align-items: center;
+        display: flex;
+        height: 100%;
+        justify-content: center;
+      }
+
+      svg {
+        display: block;
+        flex-basis: 100%;
+        max-width: 500px;
+      }
+
+      @keyframes gasoline-tho {
+        0% {
+          --gx: -329px;
+          --ax: 40px;
+          --sx: -358px;
+          --o1x: -60px;
+          --lx: -68px;
+          --ix: -164px;
+          --nx: 194px;
+          --ex: -122px;
+          --tx: 260px;
+          --hx: 261px;
+          --o2x: 160px;
+        }
+      }
+
+      @keyframes eolian-goths {
+        from {
+          --ex: -400px;
+          --o1x: -147px;
+          --lx: -155px;
+          --ix: -250px;
+          --ax: 155px;
+          --nx: 155px;
+          --gx: -57px;
+          --o2x: 27px;
+          --tx: 260px;
+          --hx: 261px;
+          --sx: 0;
+        }
+      }
+
+      @keyframes agent-hi-solo {
+        from {
+          --ax: 0;
+          --gx: -287px;
+          --ex: -315px;
+          --nx: 83px;
+          --tx: 79px;
+          --hx: 90px;
+          --ix: -110px;
+          --sx: -133px;
+          --o1x: 164px;
+          --lx: 160px;
+          --o2x: 160px;
+        }
+      }
+
+      @keyframes hostage-lion {
+        from {
+          --hx: -136px;
+          --o1x: -143px;
+          --sx: -354px;
+          --tx: 41px;
+          --ax: 172px;
+          --gx: -115px;
+          --ex: -138px;
+          --lx: 100px;
+          --ix: 0;
+          --o2x: 120px;
+          --nx: 397px;
+        }
+      }
+
+      .gasoline-tho {
+        animation:
+          gasoline-tho 2s infinite alternate,
+          eolian-goths 2s 1s infinite alternate;
+      }
+
+      .eolian-goths {
+        animation:
+          eolian-goths 3s infinite alternate,
+          gasoline-tho 3s 1s infinite alternate,
+          hostage-lion 7s 1s infinite alternate;
+      }
+
+      .agent-hi-solo {
+        animation:
+          agent-hi-solo 4s infinite alternate,
+          eolian-goths 4s 1s infinite alternate,
+          gasoline-tho 8s 1s infinite alternate;
+      }
+
+      .hostage-lion {
+        animation:
+          hostage-lion 3s infinite alternate,
+          gasoline-tho 3s 1s infinite alternate,
+          agent-hi-solo 7s 1s infinite alternate;
+      }
+
+      .rand2 {
+        animation:
+          gasoline-tho 4s infinite alternate,
+          eolian-goths 6s 1s infinite alternate,
+          agent-hi-solo 9s 1s infinite alternate;
+      }
+    </style>
+  </head>
+  <body>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 463 300" aria-labelledby="logo-title">
+      <title id="logo-title">anthologies</title>
+      <use class="gasoline-tho" href="#logo" xlink:href="#logo" />
+      <use class="eolian-goths" href="#logo" xlink:href="#logo" transform="translate(0 59)" />
+      <use class="agent-hi-solo" href="#logo" xlink:href="#logo" transform="translate(0 119)" />
+      <use class="hostage-lion" href="#logo" xlink:href="#logo" transform="translate(0 183)" />
+      <use class="rand2" href="#logo" xlink:href="#logo" transform="translate(0 250)" />
+    </svg>
+  </body>
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="0" width="0" hidden style="display:none">
+    <defs>
+      <g id="logo">
+        <path style="transform: translate(var(--sx, 0), var(--sy, 0))" fill="#000000" d="M461.32,15.76 C461.32,20.08 457.42,22.48 453.46,22.48 C449.02,22.48 446.08,20.38 445,16.12 L449.05,15.31 C449.65,17.47 451.21,18.4 453.46,18.4 C455.02,18.4 457.03,17.59 457.03,15.76 C457.03,11.98 445.66,14.59 445.66,7.03 C445.66,2.98 449.29,1 452.89,1 C456.7,1 459.07,2.44 460.72,5.8 L457.03,7.51 C456.07,5.77 454.99,4.99 452.89,4.99 C451.72,4.99 449.95,5.53 449.95,7.03 C449.95,10.21 461.32,8.11 461.32,15.76 Z"/>
+        <polygon style="transform: translate(var(--ex, 0), var(--ey, 0))" fill="#000000" points="418.37 17.71 418.37 21.94 404 21.94 404 1 418.37 1 418.37 5.23 408.29 5.23 408.29 9.16 417.08 9.16 417.08 13.21 408.29 13.21 408.29 17.71"/>
+        <polygon style="transform: translate(var(--ix, 0), var(--iy, 0))" fill="#000000" points="380.29 1 380.29 21.94 376 21.94 376 1"/>
+        <path style="transform: translate(var(--gx, 0), var(--gy, 0))" fill="#000000" d="M346.12771,7.43387752 C346.12771,11.1707256 343.463175,13.2503627 339.758821,13.2503627 C339.173923,13.2503627 338.621519,13.1528798 338.069116,12.9254194 C337.744172,13.1853741 337.484218,13.5753061 337.484218,13.9977324 C337.484218,14.35517 337.841655,14.4201587 338.134104,14.4201587 C339.823809,14.4201587 341.416032,13.672789 343.105737,13.672789 C345.542812,13.672789 347.33,15.2975056 347.33,17.7670747 C347.33,21.7963718 343.495669,24.1359636 339.823809,24.1359636 C336.639365,24.1359636 333,22.8686847 333,19.1318366 C333,18.579433 333.097483,18.0270294 333.292449,17.5071201 L337.159274,18.676916 C337.12678,18.8068933 337.12678,18.9043763 337.12678,19.0343536 C337.12678,19.7817233 338.166599,20.1716552 339.368889,20.1716552 C341.091088,20.1716552 343.20322,19.4242856 343.20322,17.9620407 C343.20322,17.4746258 342.748299,17.2146711 342.325873,17.2146711 C341.0261,17.2146711 339.823809,17.6695917 338.556531,17.6695917 C336.476893,17.6695917 333.942336,16.8247391 333.942336,14.35517 C333.942336,13.3153514 334.397256,12.3405215 335.014649,11.5281632 C334.039819,10.3908616 333.649887,8.86362808 333.649887,7.40138319 C333.649887,3.53455781 336.086961,1.38993197 339.888798,1.38993197 C341.123583,1.38993197 342.390862,1.58489796 343.495669,2.23478457 C343.658141,1.8448526 343.658141,1.4224263 343.625646,1 L347.265011,1 C347.265011,2.46224489 347.070045,4.11945577 345.802766,5.02929703 C346.030227,5.87414963 346.12771,6.68650791 346.12771,7.43387752 Z M341.935941,7.40138319 C341.935941,6.13410428 341.091088,5.48421766 339.888798,5.48421766 C338.719002,5.48421766 337.841655,6.13410428 337.841655,7.40138319 C337.841655,8.76614508 338.556531,9.35104304 339.888798,9.35104304 C341.221066,9.35104304 341.935941,8.76614508 341.935941,7.40138319 Z"/>
+        <path style="transform: translate(var(--o2x, 0), var(--o2y, 0))" fill="#000000" d="M301.52,11.71 C301.52,17.29 299.09,22.42 292.76,22.42 C286.43,22.42 284,17.29 284,11.71 C284,6.13 286.43,1 292.76,1 C299.09,1 301.52,6.13 301.52,11.71 Z"/>
+        <polygon style="transform: translate(var(--lx, 0), var(--ly, 0))" fill="#000000" points="256.14 17.8 256.14 21.94 243 21.94 243 1 247.26 1 247.26 17.8"/>
+        <path style="transform: translate(var(--o1x, 0), var(--o1y, 0))" fill="#000000" d="M207.76,11.71 C207.76,17.29 205.33,22.42 199,22.42 C192.67,22.42 190.24,17.29 190.24,11.71 C190.24,6.13 192.67,1 199,1 C205.33,1 207.76,6.13 207.76,11.71 Z"/>
+        <polygon style="transform: translate(var(--hx, 0), var(--hy, 0))" fill="#000000" points="155.05 1 155.05 21.94 150.76 21.94 150.76 13.21 143.29 13.21 143.29 21.94 139 21.94 139 1 143.29 1 143.29 9.16 150.76 9.16 150.76 1"/>
+        <polygon style="transform: translate(var(--tx, 0), var(--ty, 0))" fill="#000000" points="109.05 1 109.05 5.23 103.17 5.23 103.17 21.94 98.88 21.94 98.88 5.23 93 5.23 93 1"/>
+        <polygon style="transform: translate(var(--nx, 0), var(--ny, 0))" fill="#000000" points="64.39 1 64.39 21.94 60.94 21.94 53.29 10 53.29 21.94 49 21.94 49 1 52.48 1 60.1 12.94 60.1 1"/>
+        <polygon style="transform: translate(var(--ax, 0), var(--ay, 0))" fill="#000000" points="20.86 21.94 1 21.94 10.93 1"/>
+      </g>
+    </def>
+  </svg>
+</html>
