@@ -1,0 +1,5 @@
+@import "modules/reboot";
+
+body {
+  background-color: orange;
+}

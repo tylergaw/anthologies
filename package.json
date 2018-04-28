@@ -8,9 +8,14 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
-    "handlebars": "4.0.11"
+    "del": "3.0.0",
+    "gulp": "3.9.1",
+    "gulp-postcss": "7.0.1",
+    "handlebars": "4.0.11",
+    "postcss-import": "11.1.0"
   },
   "scripts": {
+    "gulp": "gulp",
     "start": "sam local start-api",
     "deploy-static": "aws s3 sync ./public s3://dev.anthologies.co",
     "deploy-static-prod": "aws s3 sync ./public s3://anthologies.co",
