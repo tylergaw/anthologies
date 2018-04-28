@@ -21,6 +21,7 @@ const templates = () => {
       callback(error, (f => {
         const filename = path.basename(f.path, ".html");
         const newContents = handlebars.compile(tmplData)({
+          htmlClass: `page-${filename}`,
           contents: f.contents.toString("utf8")
         });
 
