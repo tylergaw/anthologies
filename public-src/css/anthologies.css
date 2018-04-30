@@ -1,5 +1,15 @@
 @import "modules/reboot";
 
 body {
-  background-color: orange;
+  --font-aaux: "aaux-next", sans-serif;
+  font-family: var(--font-aaux);
+  font-weight: 400;
+}
+
+h3, h4, h5, h6, b, strong {
+  font-weight: 600;
+}
+
+h1, h2 {
+  font-weight: 900;
 }

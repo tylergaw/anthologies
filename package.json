@@ -18,6 +18,7 @@
   },
   "scripts": {
     "gulp": "gulp",
+    "watch": "gulp && gulp watch",
     "start": "sam local start-api",
     "deploy-static": "yarn gulp && aws s3 sync ./public s3://dev.anthologies.co",
     "deploy-static-prod": "yarn gulp && aws s3 sync ./public s3://anthologies.co",

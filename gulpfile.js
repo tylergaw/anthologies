@@ -56,3 +56,5 @@ gulp.task("css", () =>
 );
 
 gulp.task("default", ["clean", "html", "css"]);
+
+gulp.task("watch", () => gulp.watch(["./public-src/**/*", "./templates/**/*"], ["html", "css"]));
