@@ -102,28 +102,34 @@ const anthologies = {
 };
 
 const anthologyTmpl = `
-  <h1>{{title}}</h1>
-  <h3>Curated by <a href="/u/{{user.id}}">{{user.name}}</a></h3>
-  <p>{{description}}</p>
-  <ul>
-  {{#each entries}}
-    <li>
-      {{#each authors}}{{#unless @first}}, {{/unless}}{{name}}{{/each}}
-      • {{#publication}}<strong>{{name}}</strong>{{/publication}}
+  <div class="ant ant--spartan">
+    <header class="ant__cover">
+      <h1 class="ant__title">{{title}}</h1>
+      <h3 class="ant__byline">
+        <span class="text--subtle">Curated by</span> <a href="/u/{{user.id}}">{{user.name}}</a>
+      </h3>
+      <p class="ant__description">{{description}}</p>
+    </header>
+    <ul>
+    {{#each entries}}
+      <li>
+        {{#each authors}}{{#unless @first}}, {{/unless}}{{name}}{{/each}}
+        • {{#publication}}<strong>{{name}}</strong>{{/publication}}
 
-      <a href="{{url}}" target="_blank" rel="noopener">
-        <h2>{{title}}</h2>
-        {{#description}}
-        <p>
-          {{this}}
-        </p>
-        {{/description}}
-      </a>
-    </li>
-  {{else}}
-    <li>No entries</li>
-  {{/each}}
-  </ul>
+        <a href="{{url}}" target="_blank" rel="noopener">
+          <h2>{{title}}</h2>
+          {{#description}}
+          <p>
+            {{this}}
+          </p>
+          {{/description}}
+        </a>
+      </li>
+    {{else}}
+      <li>No entries</li>
+    {{/each}}
+    </ul>
+  </div>
 `;
 
 const Anthology = a => {
