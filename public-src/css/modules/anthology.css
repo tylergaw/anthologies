@@ -36,3 +36,8 @@
   line-height: 1.6;
   margin-top: 2.5rem;
 }
+
+.ant__entries {
+  list-style: none;
+  padding: 0;
+}

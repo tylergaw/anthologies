@@ -1,0 +1,21 @@
+.entry {
+  padding: 1rem;
+}
+
+.entry__link {
+  text-decoration: none;
+}
+
+.entry__title {
+  font-size: 1.9rem;
+  line-height: 1.1;
+}
+
+.entry__desc {
+  font-size: 1.1rem;
+}
+
+.entry__link:hover .entry__title,
+.entry__link:focus .entry__title {
+  text-decoration: underline;
+}

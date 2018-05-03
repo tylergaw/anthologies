@@ -110,16 +110,16 @@ const anthologyTmpl = `
       </h3>
       <p class="ant__description">{{description}}</p>
     </header>
-    <ul>
+    <ul class="ant__entries">
     {{#each entries}}
-      <li>
-        {{#each authors}}{{#unless @first}}, {{/unless}}{{name}}{{/each}}
+      <li class="entry">
+        <span class="text--subtle">{{#each authors}}{{#unless @first}}, {{/unless}}{{name}}{{/each}}</span>
         • {{#publication}}<strong>{{name}}</strong>{{/publication}}
 
-        <a href="{{url}}" target="_blank" rel="noopener">
-          <h2>{{title}}</h2>
+        <a class="entry__link" href="{{url}}" target="_blank" rel="noopener">
+          <h2 class="entry__title">{{title}}</h2>
           {{#description}}
-          <p>
+          <p class="entry__desc">
             {{this}}
           </p>
           {{/description}}
