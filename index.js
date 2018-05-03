@@ -103,12 +103,14 @@ const anthologies = {
 
 const anthologyTmpl = `
   <div class="ant ant--spartan">
-    <header class="ant__cover">
-      <h1 class="ant__title">{{title}}</h1>
-      <h3 class="ant__byline">
-        <span class="text--subtle">Curated by</span> <a href="/u/{{user.id}}">{{user.name}}</a>
-      </h3>
-      <p class="ant__description">{{description}}</p>
+    <header class="ant__cover ant__cover--no-image">
+      <div class="cover__body">
+        <h1 class="ant__title">{{title}}</h1>
+        <h3 class="ant__byline">
+          <span class="text--subtle">Curated by</span> <a href="/u/{{user.id}}">{{user.name}}</a>
+        </h3>
+        <p class="ant__description">{{description}}</p>
+      </div>
     </header>
     <ul class="ant__entries">
     {{#each entries}}

@@ -41,3 +41,29 @@
   list-style: none;
   padding: 0;
 }
+
+@media (min-width: 58.75em) {
+  .ant {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+  }
+
+  .ant__cover,
+  .ant__entries {
+    width: 50%;
+  }
+
+  .ant__cover {
+    border-bottom: 0;
+  }
+
+  .ant__cover--no-image {
+    align-items: center;
+    display: flex;
+  }
+
+  .ant__title {
+    font-size: 6vw;
+  }
+}
