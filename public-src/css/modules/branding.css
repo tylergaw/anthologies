@@ -1,0 +1,28 @@
+.branding {
+  background-color: #1A1A1A;
+  color: #fff;
+  text-align: center;
+}
+
+.branding a {
+  color: #fff;
+  display: block;
+  font-size: 14px;
+  padding: 0.2rem;
+  text-decoration: none;
+}
+
+@media (min-width: 58.75em) {
+  .branding {
+    display: flex;
+    height: 100%;
+    order: -1;
+    overflow: hidden;
+    width: 24px;
+  }
+
+  .branding a {
+    text-orientation: upright;
+    writing-mode: vertical-lr;
+  }
+}

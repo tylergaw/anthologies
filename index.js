@@ -131,6 +131,9 @@ const anthologyTmpl = `
       <li>No entries</li>
     {{/each}}
     </ul>
+    <div class="branding">
+      <a href="/">anthologies</a>
+    </div>
   </div>
 `;
 

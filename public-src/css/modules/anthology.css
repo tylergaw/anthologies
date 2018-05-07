@@ -57,6 +57,13 @@
   .ant__cover,
   .ant__entries {
     overflow-y: auto;
+  }
+
+  .ant__cover {
+    width: calc(50% - 24px);
+  }
+
+  .ant__entries {
     width: 50%;
   }
 
