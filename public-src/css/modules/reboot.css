@@ -3,7 +3,26 @@
 }
 
 html {
+  font-size: 16px;
   height: 100%;
+}
+
+@media (min-width: 320px) {
+  html {
+    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+  }
+}
+
+@media (min-width: 1000px) {
+  html {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 1600px) {
+  html {
+    font-size: 24px;
+  }
 }
 
 body {

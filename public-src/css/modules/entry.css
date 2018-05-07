@@ -1,5 +1,5 @@
 .entry {
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
 .entry__link {
@@ -13,6 +13,7 @@
 
 .entry__desc {
   font-size: 1.1rem;
+  max-width: 60ch;
 }
 
 .entry__link:hover .entry__title,

@@ -4,6 +4,10 @@
   --color-divider: #D0D0D0;
 }
 
+.ant {
+  overflow: hidden;
+}
+
 .ant,
 .ant a {
   color: var(--color-text);
@@ -11,11 +15,11 @@
 
 .ant__cover {
   border-bottom: 1px solid var(--color-divider);
-  padding: 1rem 1rem 2rem 1rem;
+  padding: 1.5rem 1.5rem 2rem 1.5rem;
 }
 
 .ant__title {
-  font-size: 13vw;
+  font-size: 3.5rem;
   letter-spacing: -0.02em;
   line-height: 1;
 }
@@ -39,7 +43,8 @@
 
 .ant__entries {
   list-style: none;
-  padding: 0;
+  margin: 0;
+  padding: 1rem 0;
 }
 
 @media (min-width: 58.75em) {
@@ -51,19 +56,18 @@
 
   .ant__cover,
   .ant__entries {
+    overflow-y: auto;
     width: 50%;
   }
 
   .ant__cover {
     border-bottom: 0;
+    box-shadow: inset -1px 0 0 var(--color-divider);
+    max-width: 75ch;
   }
 
   .ant__cover--no-image {
     align-items: center;
     display: flex;
-  }
-
-  .ant__title {
-    font-size: 6vw;
   }
 }
