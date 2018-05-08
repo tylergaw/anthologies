@@ -20,3 +20,8 @@
 .entry__link:focus .entry__title {
   text-decoration: underline;
 }
+
+/* temp */
+.entry img {
+  max-width: 300px;
+}

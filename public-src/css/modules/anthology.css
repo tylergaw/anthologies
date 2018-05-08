@@ -15,6 +15,14 @@
 
 .ant__cover {
   border-bottom: 1px solid var(--color-divider);
+}
+
+.cover__img {
+  display: block;
+  width: 100%;
+}
+
+.cover__body {
   padding: 1.5rem 1.5rem 2rem 1.5rem;
 }
 
@@ -44,7 +52,7 @@
 .ant__entries {
   list-style: none;
   margin: 0;
-  padding: 1rem 0;
+  padding: 0.5rem 0;
 }
 
 @media (min-width: 58.75em) {
@@ -64,6 +72,8 @@
   }
 
   .ant__entries {
+    flex-grow: 1;
+    padding-top: 0;
     width: 50%;
   }
 
@@ -74,7 +84,7 @@
   }
 
   .ant__cover--no-image {
-    align-items: center;
-    display: flex;
+    /* align-items: center;
+    display: flex; */
   }
 }
