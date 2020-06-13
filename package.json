@@ -8,7 +8,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "handlebars": "4.0.11"
+    "handlebars": "4.3.0"
   },
   "devDependencies": {
     "del": "3.0.0",
