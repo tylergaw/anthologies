@@ -1,0 +1,115 @@
+.page-index {
+  height: 90%;
+}
+
+.page-index body {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  padding: 0 1rem;
+}
+
+.page-index svg {
+  display: block;
+  flex-basis: 100%;
+  max-width: 500px;
+}
+
+@keyframes gasoline-tho {
+  0% {
+    --gx: -329px;
+    --ax: 40px;
+    --sx: -358px;
+    --o1x: -60px;
+    --lx: -68px;
+    --ix: -164px;
+    --nx: 194px;
+    --ex: -122px;
+    --tx: 260px;
+    --hx: 261px;
+    --o2x: 160px;
+  }
+}
+
+@keyframes eolian-goths {
+  from {
+    --ex: -400px;
+    --o1x: -147px;
+    --lx: -155px;
+    --ix: -250px;
+    --ax: 155px;
+    --nx: 155px;
+    --gx: -57px;
+    --o2x: 27px;
+    --tx: 260px;
+    --hx: 261px;
+    --sx: 0;
+  }
+}
+
+@keyframes agent-hi-solo {
+  from {
+    --ax: 0;
+    --gx: -287px;
+    --ex: -315px;
+    --nx: 83px;
+    --tx: 79px;
+    --hx: 90px;
+    --ix: -110px;
+    --sx: -133px;
+    --o1x: 164px;
+    --lx: 160px;
+    --o2x: 160px;
+  }
+}
+
+@keyframes hostage-lion {
+  from {
+    --hx: -136px;
+    --o1x: -143px;
+    --sx: -354px;
+    --tx: 41px;
+    --ax: 172px;
+    --gx: -115px;
+    --ex: -138px;
+    --lx: 100px;
+    --ix: 0;
+    --o2x: 120px;
+    --nx: 397px;
+  }
+}
+
+.gasoline-tho {
+  animation:
+    gasoline-tho 2s infinite alternate,
+    eolian-goths 2s 1s infinite alternate;
+}
+
+.eolian-goths {
+  animation:
+    eolian-goths 3s infinite alternate,
+    gasoline-tho 3s 1s infinite alternate,
+    hostage-lion 7s 1s infinite alternate;
+}
+
+.agent-hi-solo {
+  animation:
+    agent-hi-solo 4s infinite alternate,
+    eolian-goths 4s 1s infinite alternate,
+    gasoline-tho 8s 1s infinite alternate;
+}
+
+.hostage-lion {
+  animation:
+    hostage-lion 3s infinite alternate,
+    gasoline-tho 3s 1s infinite alternate,
+    agent-hi-solo 7s 1s infinite alternate;
+}
+
+.rand2 {
+  animation:
+    gasoline-tho 4s infinite alternate,
+    eolian-goths 6s 1s infinite alternate,
+    agent-hi-solo 9s 1s infinite alternate;
+}
