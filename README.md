@@ -9,6 +9,18 @@ Hold on to something.
 Clone the project
 
 ```
-git clone <repo-url>
+git clone git@github.com:tylergaw/anthologies.git
 cd anthologies
+```
+
+**Build the project**
+
+```
+go build -o bin/anthologies -v
+```
+
+**Run dev server**
+
+```
+heroku local
 ```
